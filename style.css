@@ -5,13 +5,42 @@ body,
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Cherry Cream Soda", system-ui;
+}
+.cherry-cream-soda-regular {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .head {
-  background-color: #d4e4ff;
-  text-align: align-self: auto;
-  width: 30vw;
-  padding: 20px;
-  margin: 10px;
+  background-color: #bb9457;
+  text-align: center;
+  width: 35vw;
+  padding: 30px;
+  margin: 0 auto;
+  -webkit-text-fill-color: #99582a;
+}
+body {
+  /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
+  background-image: url(https://wallpaper.dog/large/10911617.jpg);
+}
+.beach {
+  /* sets background color around the beach text */
+  background-color: rgb(54, 66, 80);
+  -webkit-text-fill-color: red;
+  text-align: center;
+  width: 35vw;
+  padding: 30px;
+  margin: 0 auto;
+}
+}
+.beta {
+  /* sets background color around the blue text */
+  background-color: rgb(90, 130, 177);
+  text-align: center;
+  width: 35vw;
+  padding: 30px;
+  margin: 0 auto;
+  -webkit-text-fill-color: blue;
 }
