@@ -1,7 +1,7 @@
 html,
 body,
 * {
-  font-size: 30px;
+  font-size: 20px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,10 +20,13 @@ body,
   padding: 30px;
   margin: 0 auto;
   -webkit-text-fill-color: #99582a;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 5px solid #99582a;
 }
 body {
   /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
-  background-image: url(https://wallpaper.dog/large/10911617.jpg);
+  background-image: url(https://t3.ftcdn.net/jpg/04/96/36/88/360_F_496368831_P4NgdDbxS7hdwymOxJKd6Qisab06P0ro.jpg);
 }
 .apple {
   /* sets background color around the beach text */
@@ -33,4 +36,37 @@ body {
   width: 80vw;
   padding: 30px;
   margin: 0 auto;
+  border-radius: 25px;
+  border: 5px solid #99582a;
+}
+#title {
+  font-size: 30px;
+}
+.pumpkin {
+  /* sets background color around the beach text */
+  background-color: rgb(80, 25, 25);
+  -webkit-text-fill-color: red;
+  text-align: center;
+  width: 80vw;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 5px solid #99582a;
+}
+#title-2 {
+  font-size: 30px;
+}
+.pecan {
+  /* sets background color around the beach text */
+  background-color: rgb(80, 25, 25);
+  -webkit-text-fill-color: red;
+  text-align: center;
+  width: 80vw;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 5px solid #99582a;
+}
+#title-3 {
+  font-size: 30px;
 }
